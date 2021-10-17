@@ -18,50 +18,49 @@
                     <br>
                     <h1 class="teal-text text-lighten-5 centar-align center-align card-title">PasswordGenerator</h1>
                     <div class="card-content">
-                        
-                            <div class=" row result-container  blue-grey">
-                                <span id="result"></span>
-                                <a class="waves-effect waves-light teal darken-3 btn right" href="#" id=clipboard><i
-                                        class="material-icons">content_copy</i></a>
-                            </div>
-                        
 
-                        
-                            <div class="row setting">
+                        <div class=" row result-container  blue-grey">
+                            <span id="result"></span>
+                            <a class="waves-effect waves-light teal darken-3 btn right" href="#" id=clipboard><i
+                                    class="material-icons">content_copy</i></a>
+                        </div>
 
-                                <div class="input-field col s12 setting">
-                                    <input id="length" type="number" class="validate" min="4" max="20">
-                                    <label>Password length</label>
-                                    <span class="helper-text" data-error="Password length:
+                        <div class="row setting">
+
+                            <div class="input-field col s12 setting">
+                                <input id="length" type="number" class="validate" min="4" max="20" value='20' required>
+                                <label>Password length</label>
+                                <span class="helper-text" data-error="Password length:
                                     min 4, max 20" data-success="right"></span>
-                                </div>
-
-                                
-                                    <label class="col s12 setting">
-                                      <input type="checkbox" class="filled-in" id="uppercase" checked="checked" />
-                                      <span>Include uppercase letters</span>
-                                    </label>
-                                
-                                     <label class="col s12 setting">
-                                      <input type="checkbox" class="filled-in"  id="lowercase"  checked="checked" />
-                                      <span>Include lowercase letters</span>
-                                    </label>
-                                
-                                     <label class="col s12 setting">
-                                      <input type="checkbox" class="filled-in" id="numbers" checked="checked" />
-                                      <span>Include numbers</span>
-                                    </label>
-                                
-                                    <label class="col s12 setting">
-                                        <input type="checkbox" class="filled-in" id="symbols" checked="checked" />
-                                        <span>Include symbols</span>
-                                      </label>
-<div class="row"></div>
-                                      <button class="btn waves-effect waves-light col s12" type="submit" name="action" id="generate">Generate Password
-                                        <i class="material-icons right">send</i>
-                                      </button>
                             </div>
-                        
+
+
+                            <label class="col s12 setting">
+                                <input type="checkbox" class="filled-in" id="uppercase" checked="checked" />
+                                <span>Include uppercase letters</span>
+                            </label>
+
+                            <label class="col s12 setting">
+                                <input type="checkbox" class="filled-in" id="lowercase" checked="checked" />
+                                <span>Include lowercase letters</span>
+                            </label>
+
+                            <label class="col s12 setting">
+                                <input type="checkbox" class="filled-in" id="numbers" checked="checked" />
+                                <span>Include numbers</span>
+                            </label>
+
+                            <label class="col s12 setting">
+                                <input type="checkbox" class="filled-in" id="symbols" checked="checked" />
+                                <span>Include symbols</span>
+                            </label>
+                            <div class="row"></div>
+                            <button class="btn waves-effect waves-light col s12" type="submit" name="action"
+                                id="generate">Generate Password
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -69,7 +68,7 @@
     </div>
 
 
-<script src="app.js"></script>
+    <script src="app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
